@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: / # Source directory in the deployment bundle
+    destination: /var/www/html/ # Destination directory on the EC2 instance
+
+hooks:
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
+  AfterInstall:
+    - location: scripts/after_install.sh
+      timeout: 300
+  ApplicationStart:
+    - location: scripts/application_start.sh
+      timeout: 300
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      timeout: 300
