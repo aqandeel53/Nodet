@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: / # Source directory in the deployment bundle
-    destination: / # Destination directory on the EC2 instance
+    destination: /home/ubuntu/
 
 hooks:
   BeforeInstall:
