@@ -1,4 +1,4 @@
 #!/bin/bash
 # Start the application with pm2
-cd /var/www/html
+cd /home/ubuntu/
 pm2 start index.js --name "my-node-app"
