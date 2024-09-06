@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: / # Source directory in the deployment bundle
-    destination: /var/www/html/ # Destination directory on the EC2 instance
+    destination: / # Destination directory on the EC2 instance
 
 hooks:
   BeforeInstall:
