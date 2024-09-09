@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: / # Source directory in the deployment bundle
-    destination: /home/ubuntu/
+    destination: /home/ubuntu/aff/
 
 hooks:
   BeforeInstall:
