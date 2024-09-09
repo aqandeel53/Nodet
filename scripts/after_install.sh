@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/
+cd /home/ubuntu/aff/
 npm install
