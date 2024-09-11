@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo Installing dependencies...
-      - npm instalal
+      - npm install
   build:
     commands:
       - echo Building the application...
